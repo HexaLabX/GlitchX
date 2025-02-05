@@ -31,6 +31,8 @@ const SignUp = () => {
         email,
         password,
         gender,
+        profileColor: "#3b82f6",
+        profileIcon: "Initial",
         role: "user",
         createdAt: serverTimestamp(),
       });
